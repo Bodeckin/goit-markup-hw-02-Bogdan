@@ -130,7 +130,7 @@ li {
 /* Ссилка address footer */
 
 .link-address {
-  color: white;
+  color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -276,7 +276,7 @@ li {
 
 }
 
-.foto-paragraph {
+.foto-work {
 
   line-height: 1.1;
   color: var(--secondary-color);

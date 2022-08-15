@@ -297,3 +297,6 @@ li {
 .button-section {
   background: var(--button-color);
 }
+button buttons-section {
+  color: var(--current-color)
+}

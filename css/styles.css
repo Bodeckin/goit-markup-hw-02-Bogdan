@@ -14,8 +14,6 @@
 body {
   font-family: var(--main-font-family);
   font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
   color: var(--main-color);
 }
 
@@ -48,7 +46,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 /* ховаєм підкреслювання ссилок */
@@ -132,7 +130,7 @@ li {
 /* Ссилка address footer */
 
 .link-address {
-  color: var(--main-light-color);
+  color: white;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -142,13 +140,13 @@ li {
 
 .address {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .link-address {
+  color: #ffffff;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -159,9 +157,7 @@ li {
 /* Hover footer address  */
 
 .address:hover,
-.address:focus,
-.link-address:hover,
-.link-address:focus {
+.address:focus {
   color: var(--current-color);
 }
 
@@ -177,12 +173,10 @@ li {
 
 /* Параграф ссилки  */
 
-.paragraph {
-  font-weight: 400;
+.work {
   font-size: 16px;
   line-height: 1.8;
   color: var(--secondary-color);
-  letter-spacing: 0.03em;
 }
 
 /* Heder info  */
@@ -228,7 +222,7 @@ li {
   color: var(--main-light-color);
   /* Текс великими літерами */
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
 }
 
 .hero-section {
@@ -247,30 +241,27 @@ li {
   color: var(--main-light-color);
 }
 
-.section-title {
-  font-weight: 700;
+.work-title {
   font-size: 14px;
   line-height: 1.1;
-  color: var(--footer-color);
-  letter-spacing: 0.03em;
+  
 }
 
  
   /* робимо великими букви */
 
-.section-title {
+.work-title {
   text-transform: uppercase;
 }
 
-.section-paragraph {
-  font-weight: 400;
+.section-work {
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-color);
-  letter-spacing: 0.03em;
+
 }
 
-.title-work {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -282,16 +273,20 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
-  color: var(--main-color);
-  letter-spacing: 0.03em;
+
 }
 
 .foto-paragraph {
-  font-weight: 400;
-  font-size: 16px;
+
   line-height: 1.1;
   color: var(--secondary-color);
   letter-spacing: 0.03em;
+}
+
+/* робить голубий колір в статичному стані */
+
+.caren-studio {
+  color: var(--current-color);
 }
 
 

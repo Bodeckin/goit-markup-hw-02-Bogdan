@@ -111,6 +111,12 @@ li {
 }
 
 /* hover focus button */
+ .filtr-btns:hover,
+ .filtr-btns:focus {
+  background-color: var(--current-color);
+    color: var(--main-light-color);
+
+ }
 
 .button:hover,
 .button:focus {
@@ -127,8 +133,10 @@ li {
   background-color: var(--main-light-color);
 }
 
-/* Ссилка address footer */
-
+/* С */
+.profession{
+  color: #757575
+}
 
 
 /* info footer  */
@@ -264,8 +272,9 @@ li {
   letter-spacing: 0.03em;
 
 }
-.filtr-btns .active {
+.filtr-btns, .active {
   background-color: white;
+  cursor: pointer;
   
   
  
@@ -293,5 +302,7 @@ li {
   background: var(--button-color);
 }
     .active {
-  color: var(--current-color)
+      background-color: var(--current-color);
+        color: var(--main-light-color);
+ 
 }
